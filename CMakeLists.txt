@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3)
+project(lwivm)
+add_executable(assembler src/assembler.cpp)
+add_executable(compiler src/compiler.cpp)
+add_executable(lwivm src/lwivm.cpp)
